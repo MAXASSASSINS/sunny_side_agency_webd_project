@@ -1,0 +1,146 @@
+@media screen and (max-width: 1050px){
+    /* header seciton  */
+    header{
+        background-image: url(/images/mobile/image-header.jpg);
+        background-size: cover;
+        height: 535px;
+    }
+    .navigation-bar{
+        padding: 10% 5%;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger:hover{
+        cursor: pointer;
+    }
+    .hamburger img{
+        width: 100%;
+    }
+
+    .logo-image img{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 2.5rem;
+        letter-spacing: 0.4rem;
+    }
+
+    .heading img{
+        margin-top: 2rem;
+        height: 115px;
+    }
+
+    /* part - 2 and part 3 */
+    .part-2, .part-3{
+        display: block;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+
+    .mobile-img{
+        display: block;
+        padding: 0;
+    }
+
+    .desktop-img{
+        display: none;
+    }
+
+    .part-2 img, .part-3 img{
+        width: 100vw;
+    }
+
+    .part-3{
+        margin-top: 3rem;
+    }
+
+    .part-2-3-description{
+        padding: 7%;
+    }
+
+    /* Part 4 */
+    .part-4{
+        display: block;
+        margin-top: 4rem;
+    }
+
+    .part-4-a,.part-4-b{
+        width: 100vw;
+        background-size: cover;
+        height: 600px;
+
+    }
+
+    .part-4-a{
+        background-image: url(/images/mobile/image-graphic-design.jpg);
+
+    }
+    
+    .part-4-description{
+        padding: 25rem 1rem 3.75rem;
+        margin: 0;
+    }
+
+    .part-4-description p{
+        font-size: 1rem;
+    }
+
+    /* Part 5 */
+    .part-5{
+        padding: 0;
+        margin-top: 665px;
+    }
+
+    .part-5 h3{
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .client{
+        display: block;
+    }
+
+    .client-1,.client-2,.client-3{
+        margin: 4rem 0;
+    }
+
+    .client-1 img,.client-2 img,.client-3 img{
+        margin-bottom: 0;
+    }
+
+    .testimonial{
+        margin: 2.5rem 1.5rem;
+    }
+
+    .client-name{
+        margin-top: 2.5rem;
+    }
+
+
+    /* Part 6 */
+    .part-6{
+        display: block;
+    }
+    .part-6 div{
+        display: flex;
+    }
+
+    .part-6 img{
+        width: 50vw;
+    }
+
+
+}
+
