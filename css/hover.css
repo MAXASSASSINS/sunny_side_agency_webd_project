@@ -1,0 +1,22 @@
+li:hover{
+    cursor: pointer;
+}
+.contact-button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.226);
+    color: var(--white);
+}
+
+.learnmore:hover{
+    cursor: pointer;
+}
+
+.footer-navigation span:hover{
+    color: var(--white);
+    cursor: pointer;
+}
+
+.social-handles i:hover{
+    cursor: pointer;
+    color: var(--white);
+}
